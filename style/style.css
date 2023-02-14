@@ -1,0 +1,130 @@
+/* Main configuration */
+
+main {
+    font-family: sans-serif;
+    border: solid black 2px;
+    width: 1000px;
+    height: auto;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+/* Navigation bar */
+
+.navbar {
+    border: solid black 2px;
+    margin: 15px;
+    height: 85px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0px;
+    margin-right: 50px;
+    border: solid black 2px;
+    padding: 15px;
+}
+
+.gamepicker {
+    background-color: aqua;
+}
+
+/* Synopsis */
+
+.synopsis {
+    border: solid black 2px;
+    margin: 15px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.text {
+    margin: 15px;
+    width: 65%;
+}
+
+.synopsis div ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 75px;
+}
+
+.synopsis div ul li {
+    border: solid black 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+.info {
+    border-left: solid black 2px;
+    float: right;
+    padding-bottom: 198px;
+    padding-right: 110px;
+    position: relative;
+}
+
+.info p {
+    margin-left: 15px;
+}
+
+.info div {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Image divs */
+
+.images {
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px ;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.images div {
+    border: solid black 2px;
+    float: left;
+    padding: 50px;
+    margin-top: 20px;
+    margin-right: 10.3px;
+}
+
+/* System requirements */
+
+.requirements {
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.requirements p {
+    font-family: serif;
+}
+
+/* Reviews */
+
+.reviews {
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
